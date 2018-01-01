@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<combos>
+	<!--
+		<disabler name="" effect=""/>
+		<detonator name="" effect=""/>
+		
+		<status name="" detonator="" effect=""></status>
+	-->
+	<class name="Warrior">
+		<disabler name="Pommel Strike" status="Stun"/>
+		<disabler name="Sweet Revenge" status="Stun"/>
+		<disabler name="Wrath of Heaven" status="Stun"/>
+		
+		<detonator name="Lunge and Slash" bomb="Impact"/>
+		<detonator name="Mighty Blow" bomb="Impact"/>
+		<detonator name="Shield Bash" bomb="Impact"/>
+		<detonator name="Whirlwind" bomb="Impact"/>
+		<detonator name="Spell Purge" bomb="Eldritch"/>
+	</class>
+	<class name="Rogue">
+		<disabler name="Knockout Powder" status="Sleep"/>
+		<disabler name="Knockout Bomb" status="Sleep"/>
+		<disabler name="Stunning Shot" status="Sleep"/>
+		<disabler name="Flask of Frost" status="Freeze"/>
+		
+		<detonator name="Deathblow" bomb="Precision"/>
+		<detonator name="Long Shot" bomb="Precision"/>
+		<detonator name="Shadow Strike" bomb="Precision"/>
+		<detonator name="Twin Fangs" bomb="Precision"/>
+		<detonator name="Hidden Blades" bomb="Precision"/>
+	</class>
+	<class name="Mage">
+		<disabler name="Winter's Grasp" status="Freeze"/>
+		<disabler name="Ice Mine" status="Freeze"/>
+		<disabler name="Ice Storm" status="Freeze"/>
+		<disabler name="Lightning Bolt" status="Paralyze"/>
+		<disabler name="Static Charge" status="Paralyze"/>
+		<disabler name="Static Cage" status="Paralyze"/>
+		
+		<detonator name="Dispel" bomb="Eldritch"/>
+		<detonator name="Energy Barrage" bomb="Eldritch"/>
+		<detonator name="Immolate" bomb="Eldritch"/>
+		<detonator name="Mind Blast" bomb="Eldritch"/>
+		<detonator name="Stonefist" bomb="Impact"/>
+	</class>
+	
+	<status name="Freeze">
+		<bomb name="Impact" result="Shatter"/>
+		<bomb name="Precision" result="Shatter"/>
+		<bomb name="Eldritch" result="Basic Combo"/>
+	</status>
+	<status name="Paralyze">
+		<bomb name="Impact" result="Discharge"/>
+		<bomb name="Precision" result="Discharge"/>
+		<bomb name="Eldritch" result="Basic Combo"/>
+	</status>
+	<status name="Sleep">
+		<bomb name="Impact" result="Rupture"/>
+		<bomb name="Precision" result="Basic Combo"/>
+		<bomb name="Eldritch" result="Nightmare"/>
+	</status>
+	<status name="Stun">
+		<bomb name="Impact" result="Basic Combo"/>
+		<bomb name="Precision" result="Rupture"/>
+		<bomb name="Eldritch" result="Weaken"/>
+	</status>
+	
+	<result name="Basic Combo">Damage bonus, no other effects</result>
+	<result name="Discharge">Large AOE electricity damage bonus, inflicts Shock</result>
+	<result name="Nightmare">Large spirit damage bonus, inflicts Panic</result>
+	<result name="Rupture">Large DOT damage bonus</result>
+	<result name="Shatter">Large cold damage bonus</result>
+	<result name="Weaken">Large damage bonus, inflicts Weakness</result>
+</combos>

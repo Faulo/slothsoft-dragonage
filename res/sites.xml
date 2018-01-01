@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<page name="DragonAge" title="DragonAge" module="dragonage" ref="home" status-active="" status-public="">
+		<page name="InquisitionCombos" title="InquisitionCombos" ref="combos" status-active="" status-public=""/>
+	</page>
+</data>
+

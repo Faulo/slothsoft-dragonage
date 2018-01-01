@@ -1,0 +1,105 @@
+﻿html {
+}
+body {
+	margin: 0;
+}
+.game td, .game th {
+	padding: 0 0.25em;
+}
+.game .name {
+	font-size: larger;
+	font-weight: bolder;
+	text-align: left;
+}
+.game select {
+	width: 100%;
+	display: block;
+}
+.game .list {
+	vertical-align: top;
+}
+.game ul {
+	list-style-type: none;
+	padding: 0;
+}
+.game dl + ul {
+	margin-top: 1em;
+}
+.game dl {
+	margin: 0;
+}
+.game dl > dd {
+	margin-left: 1em;
+}
+.game [data-status] + *::before,
+.game [data-bomb] + *::before,
+.game [data-effect]::before {
+	display: inline-block;
+	width: 1.5em;
+	text-align: center;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.7);
+	font-style: normal;
+	font-weight: normal;
+	font-family: monospace;
+}
+.game [data-status="Sleep"] + *::before,
+.game [data-effect="Sleep"]::before {
+	content: "💤";
+	color: darkgreen;
+}
+.game [data-status="Freeze"] + *::before,
+.game [data-effect="Freeze"]::before {
+	content: "❄";
+	color: blue;
+}
+.game [data-status="Stun"] + *::before,
+.game [data-effect="Stun"]::before {
+	content: "💫";
+	color: white;
+}
+.game [data-status="Paralyze"] + *::before,
+.game [data-effect="Paralyze"]::before {
+	content: "⚡";
+	color: yellow;
+}
+
+.game [data-bomb="Impact"] + *::before,
+.game [data-effect="Impact"]::before {
+	content: "🔨";
+	color: silver;
+}
+.game [data-bomb="Precision"] + *::before,
+.game [data-effect="Precision"]::before {
+	content: "🎯";
+	color: red;
+}
+.game [data-bomb="Eldritch"] + *::before,
+.game [data-effect="Eldritch"]::before {
+	content: "☢";
+	color: lime;
+}
+
+.game [data-effect="Basic Combo"]::before {
+	content: "⚔";
+	color: gray;
+}
+.game [data-effect="Discharge"]::before {
+	content: "🎆";
+	color: #BF3EFF;
+}
+.game [data-effect="Nightmare"]::before {
+	content: "💀";
+	color: white;
+}
+.game [data-effect="Rupture"]::before {
+	content: "🔪";
+	color: darkred;
+}
+.game [data-effect="Shatter"]::before {
+	content: "💣";
+	color: black;
+}
+.game [data-effect="Weaken"]::before {
+	content: "💔";
+	color: #E4287C;
+}
