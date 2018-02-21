@@ -22,6 +22,10 @@ Llo
     <resource-directory name="xsl" path="template" type="application/xslt+xml"/>
     <resource-directory name="dictionary" path="dictionary" type="application/xml"/>
     <resource-directory name="pages" path="pages" type="application/xml"/>
+    <directory name="static">
+      <resource name="combos" path="combos.xml" type="application/xml"/>
+      <resource-directory name="games" path="games" type="application/xml"/>
+    </directory>
     <fragment name="home">
       <include-fragment ref="//slothsoft@slothsoft/default"/>
       <fragment name="content">
@@ -40,10 +44,5 @@ Llo
         <use-document ref="static/games"/>
       </fragment>
     </fragment>
-    <directory name="static">
-      <resource name="sites" path="sites.xml" type="application/xml"/>
-      <resource name="combos" path="combos.xml" type="application/xml"/>
-      <resource-directory name="games" path="games" type="application/xml"/>
-    </directory>
   </assets>
 </module>
