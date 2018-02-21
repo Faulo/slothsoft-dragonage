@@ -41,9 +41,9 @@ Llo
       </fragment>
     </fragment>
     <directory name="static">
-      <resource name="sites" type="application/xml" path="sites.xml"/>
-      <resource name="combos" type="application/xml" path="combos.xml"/>
-      <resource-directory name="games" type="application/xml" path="games"/>
+      <resource name="sites" path="sites.xml" type="application/xml"/>
+      <resource name="combos" path="combos.xml" type="application/xml"/>
+      <resource-directory name="games" path="games" type="application/xml"/>
     </directory>
   </assets>
 </module>
