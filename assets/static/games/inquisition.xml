@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game name="Dragon Age: Inquisition">
+	<class name="Warrior"/>
+	<class name="Mage"/>
+	<class name="Rogue"/>
+	
+	<character name="Inquisitor"/>
+	<character name="Cassandra" class="Warrior"/>
+	<character name="Sera" class="Rogue"/>
+	<character name="Dorian" class="Mage"/>
+	<character name="Blackwall" class="Warrior"/>
+	<character name="Cole" class="Rogue"/>
+	<character name="Vivienne" class="Mage"/>
+	<character name="Solas" class="Mage"/>
+	<character name="Varric" class="Rogue"/>
+	<character name="Iron Bull" class="Warrior"/>
+</game>
