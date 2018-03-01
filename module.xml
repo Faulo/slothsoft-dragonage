@@ -27,15 +27,15 @@ Llo
       <resource-directory name="games" path="games" type="application/xml"/>
     </directory>
     <fragment name="home">
-      <include-fragment ref="//slothsoft@slothsoft/default"/>
+      <import ref="//slothsoft@slothsoft/default"/>
       <fragment name="content">
         <use-template ref="xsl/home"/>
       </fragment>
     </fragment>
     <fragment name="combos">
-      <include-fragment ref="//slothsoft@slothsoft/default"/>
+      <import ref="//slothsoft@slothsoft/default"/>
       <fragment name="content">
-        <include-fragment ref="//slothsoft@core/DOM"/>
+        <import ref="//slothsoft@core/DOM"/>
         <use-template ref="xsl/_combos"/>
         <use-stylesheet ref="//slothsoft@slothsoft/css/default"/>
         <use-stylesheet ref="css/default"/>

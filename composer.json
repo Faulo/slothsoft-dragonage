@@ -20,7 +20,7 @@
     },
 	"autoload": {
         "psr-4": {
-            "Slothsoft\\DragonAge\\": "php/"
+            "Slothsoft\\DragonAge\\": "src/Slothsoft/DragonAge/"
         }
     }
 }
