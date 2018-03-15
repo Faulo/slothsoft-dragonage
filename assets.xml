@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<assets xmlns="http://schema.slothsoft.net/farah/module">
+    <resource-directory name="data" path="data" type="application/x-php"/>
+    <resource-directory name="css" path="stylesheet" type="text/css"/>
+    <resource-directory name="js" path="script" type="application/javascript"/>
+    <resource-directory name="xsl" path="template" type="application/xslt+xml"/>
+    <resource-directory name="dictionary" path="dictionary" type="application/xml"/>
+    <resource-directory name="pages" path="pages" type="application/xml"/>
+    <directory name="static">
+      <resource name="combos" path="combos.xml" type="application/xml"/>
+      <resource-directory name="games" path="games" type="application/xml"/>
+    </directory>
+    <fragment name="home">
+      <import ref="//slothsoft@slothsoft/default"/>
+      <fragment name="content">
+        <use-template ref="xsl/home"/>
+      </fragment>
+    </fragment>
+    <fragment name="combos">
+      <import ref="//slothsoft@slothsoft/default"/>
+      <fragment name="content">
+        <import ref="//slothsoft@core/DOM"/>
+        <use-template ref="xsl/_combos"/>
+        <link-stylesheet ref="//slothsoft@slothsoft/css/default"/>
+        <link-stylesheet ref="css/default"/>
+        <link-script ref="js/ComboManager"/>
+        <use-document ref="static/combos"/>
+        <use-document ref="static/games"/>
+      </fragment>
+    </fragment>
+  </assets>
