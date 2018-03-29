@@ -13,7 +13,7 @@
         <use-template ref="xsl/home"/>
       </fragment>
       <fragment name="combos">
-        <import ref="//slothsoft@core/DOM"/>
+        <import ref="//slothsoft@core/imports/DOM"/>
         <use-template ref="xsl/_combos"/>
         <link-stylesheet ref="css/default"/>
         <link-script ref="js/ComboManager"/>
