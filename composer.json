@@ -24,7 +24,7 @@
     },
     "autoload": {
         "files": [
-            "src\/registerModule.php"
+            "C:\\Webserver\\workspace\\slothsoft-dragonage\\src\\registerModule.php"
         ],
         "psr-0": {
             "Slothsoft\\DragonAge\\": "src\/"
