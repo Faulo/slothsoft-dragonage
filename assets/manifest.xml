@@ -10,14 +10,14 @@
     
     <fragment name="html">
       <fragment name="home">
-        <use-template ref="xsl/home"/>
+        <use-template ref="/xsl/home"/>
       </fragment>
       <fragment name="combos">
         <import ref="//slothsoft@core/api/DOM"/>
-        <use-template ref="xsl/_combos"/>
-        <link-stylesheet ref="css/default"/>
-        <link-script ref="js/ComboManager"/>
-        <use-document ref="static/games"/>
+        <use-template ref="/xsl/_combos"/>
+        <link-stylesheet ref="/css/default"/>
+        <link-script ref="/js/ComboManager"/>
+        <use-document ref="/static/games"/>
       </fragment>
     </fragment>
   </assets>
