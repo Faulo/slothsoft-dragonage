@@ -2,9 +2,8 @@
     "name": "slothsoft/dragonage",
     "description": "A Farah module that blabla Dragon Age.",
     "keywords": [
-        "farah-app",
-        "farah-module",
-        "slothsoft"
+        "slothsoft",
+        "farah-module"
     ],
     "license": "WTFPL",
     "authors": [
