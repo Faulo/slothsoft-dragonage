@@ -1,23 +1,23 @@
 <?xml version="1.0"?>
 <assets xmlns="http://schema.slothsoft.net/farah/module">
-	<resource-directory name="css" path="css" type="text/css" />
-	<resource-directory name="js" path="js" type="application/javascript" />
-	<resource-directory name="xsl" path="xsl" type="application/xslt+xml" />
+	<resource-directory name="css" path="css" type="text/css"/>
+	<resource-directory name="js" path="js" type="application/javascript"/>
+	<resource-directory name="xsl" path="xsl" type="application/xslt+xml"/>
 
 	<directory name="static">
-		<resource-directory name="games" path="games" type="application/xml" />
+		<resource-directory name="games" path="games" type="application/xml"/>
 	</directory>
 
 	<fragment name="html">
 		<fragment name="home">
-			<use-template ref="/xsl/home" name="home" />
+			<use-template ref="/xsl/home"/>
 		</fragment>
 		<fragment name="combos">
-			<import ref="//slothsoft@core/api/DOM" name="DOM" />
-			<use-template ref="/xsl/_combos" name="_combos" />
-			<link-stylesheet ref="/css/default" name="default" />
-			<link-script ref="/js/ComboManager" name="ComboManager" />
-			<use-document ref="/static/games" name="games" />
+			<import ref="//slothsoft@core/api/DOM"/>
+			<use-template ref="/xsl/_combos"/>
+			<link-stylesheet ref="/css/default"/>
+			<link-script ref="/js/ComboManager"/>
+			<use-document ref="/static/games" name="games"/>
 		</fragment>
 	</fragment>
 </assets>
