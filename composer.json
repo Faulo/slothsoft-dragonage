@@ -5,7 +5,7 @@
 		"slothsoft",
 		"farah-module"
 	],
-	"license" : "WTFPL",
+	"license" : "MIT",
 	"authors" : [{
 			"name" : "Daniel Schulz",
 			"email" : "info.slothsoft@gmail.com"
