@@ -1262,16 +1262,16 @@
         },
         {
             "name": "slothsoft/farah",
-            "version": "1.12.2",
+            "version": "1.12.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-farah.git",
-                "reference": "0011edd51a6effb42f61bd205b59f492f7796a7b"
+                "reference": "0e081e09b5cfa0fdffe010c67f561656e5334291"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-farah/zipball/0011edd51a6effb42f61bd205b59f492f7796a7b",
-                "reference": "0011edd51a6effb42f61bd205b59f492f7796a7b",
+                "url": "https://api.github.com/repos/Faulo/slothsoft-farah/zipball/0e081e09b5cfa0fdffe010c67f561656e5334291",
+                "reference": "0e081e09b5cfa0fdffe010c67f561656e5334291",
                 "shasum": ""
             },
             "require": {
@@ -1333,26 +1333,26 @@
             ],
             "support": {
                 "issues": "https://github.com/Faulo/slothsoft-farah/issues",
-                "source": "https://github.com/Faulo/slothsoft-farah/tree/1.12.2"
+                "source": "https://github.com/Faulo/slothsoft-farah/tree/1.12.3"
             },
-            "time": "2024-09-28T22:38:53+00:00"
+            "time": "2024-10-05T20:50:00+00:00"
         },
         {
             "name": "slothsoft/w3c",
-            "version": "1.2.4",
+            "version": "1.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-w3c.git",
-                "reference": "d976610f8bcd306948c624404ec2eaaa21b9e7c4"
+                "reference": "a36eee56b6d8d6a22765b51c3a8673ff85108e7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-w3c/zipball/d976610f8bcd306948c624404ec2eaaa21b9e7c4",
-                "reference": "d976610f8bcd306948c624404ec2eaaa21b9e7c4",
+                "url": "https://api.github.com/repos/Faulo/slothsoft-w3c/zipball/a36eee56b6d8d6a22765b51c3a8673ff85108e7b",
+                "reference": "a36eee56b6d8d6a22765b51c3a8673ff85108e7b",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2"
+                "php": ">=7.4"
             },
             "require-dev": {
                 "phpunit/phpunit": "8.5.*"
@@ -1386,9 +1386,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Faulo/slothsoft-w3c/issues",
-                "source": "https://github.com/Faulo/slothsoft-w3c/tree/1.2.4"
+                "source": "https://github.com/Faulo/slothsoft-w3c/tree/1.2.5"
             },
-            "time": "2024-09-28T22:40:36+00:00"
+            "time": "2024-10-05T20:53:06+00:00"
         },
         {
             "name": "symfony/polyfill-php80",
